@@ -12,7 +12,7 @@ img.resize {
     margin-top: 2cm;
     margin-left: 30cm;
     margin-right: auto;
-    
+    margin-bottom: 1cm;
 }
 
 a:link {text-decoration:none;} 
@@ -28,7 +28,7 @@ h1 {
 
 h3 {
     
-    font-weight: lighter;
+    font-weight:bolder;
     text-align: center; 
 }
 
@@ -43,7 +43,7 @@ h4 {
 
 p {   
   
-    margin-top: 0.5;
+    
     margin-left: 35%;
     margin-right: 35%;
     text-align: justify; text-justify: inter-cluster;

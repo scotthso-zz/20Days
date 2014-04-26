@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html {
+    font-family: 'Lobster', 'cursive';
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: -10px;
+}
+body {
+    background: #FFCA00;
+}
+
+#time { 
+    font-size: 150px;
+}
+
+.container {    
+    text-align: center;
+    margin: 0 auto;    
+}
+
+.circle {
+
+    display:inline-block;
+    margin-top: 30px;
+    background: #007D1C   ;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+
+}
+
+.circleInner {
+    
+    position:relative;
+    
+    background: #65E080 ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.circleInner:hover {
+background-color: #00C12B  ;
+}
+
+.circleInner:active {
+ background-color: #24913C;
+
+}
+
+
+p {   
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: justify; text-justify: inter-cluster;
+    line-height: 18px;
+    font-weight: lighter;
+    font-family: helvetica;
+    font-size: 15px;
+       
+}
