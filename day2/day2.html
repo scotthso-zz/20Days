@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="day2.css">
+        <title>Click Race</title>
+       <style>
+a:link {color:#5c5c5c;}      /* unvisited link */
+a:visited {color:#5c5c5c;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#FF0000;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+       </style>    
+    </head>
+    <body>
+        <script src="day2.js"></script>
+        <center><h1>Click Race</h1></center>
+        
+        <p>Try and see how fast you can click within 20 seconds.</p>
+
+   
+        <br>
+        
+        <center><h2>Time<div class=inlineblock id="time" unselectable ="on">20</div></h2></center>
+
+        <br>
+        <center><h2>Clicks</h2></center>
+        <center><intput type="button" onclick="increase();"><div class ="count" id = "count" unselectable="on">0</div></intput></center>
+        
+        <br>
+        <br>
+         <center><font size = "3" face = "monospace"><intput type="button" onclick="document.location.reload(true)"><a><div id = "reset" >reset</div></a></intput></font></center>
+        
+        <center><h4><font face = "monospace"><a href = "http://scotthso.com/hundred_days.html">back</a></font></h4></center>
+        
+    </body>
+    
+</html>
