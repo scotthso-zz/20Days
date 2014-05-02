@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
+#page{
+ background-color:green;   
+}
+
+h1 {
+    font-family: 'Ubuntu Mono', '';
+    font-size: 70pt;
+    color: #444;
+    
+}
+
+#answer {
+    
+    font-family: 'Oswald', sans-serif;
+    font-size:40pt;
+}
+
+
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+body{
+  background-color:#eeeeee;
+  margin:0;
+  padding:0;
+}
+#input{
+  width:500px;
+  height:auto;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-250px;
+  background-color:#f1f1f1;
+}
+#input input{
+  position:relative;
+  width:100%;
+  font-size:xx-large;
+  text-transform:uppercase;
+  color:#555555;
+  border:none;
+  outline:none;
+  background:none;
+  padding:12px 5px;
+}
+#input input:focus{
+  box-shadow:0px 0px 3px 1px rgba(0,180,200,.5);
+}
+#input .border-line{
+  width:100%;
+  border:3px solid #555555;
+  border-top:none;
+  height:18%;
+  position:absolute;
+  bottom:0px; 
+  box-shadow:0px 2px 3px 0px rgba(0,0,0,.25);
+}

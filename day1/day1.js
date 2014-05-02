@@ -70,12 +70,17 @@ function start() {
     if(action == 1) {
         
 	clocktimer = setInterval("update()", 1);
-	x.start();
-        action = 2;
+	
+    x.start();
+    action = 2;
+        
 } else {
+    
     stop();
     action = 1;
- }
+  
+}
+
 }
  
 function stop() {

@@ -17,7 +17,11 @@ img.resize {
 
 a:link {text-decoration:none;} 
 
-
+xmp {
+    text-align: left;
+    margin-left: 30%
+       
+}
 
 h1 {
     margin-top:1cm;
@@ -39,7 +43,6 @@ h4 {
     line-height: 1px;
   
 }
-
 
 p {   
   

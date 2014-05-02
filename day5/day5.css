@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:700);
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+
+html {
+ background-color: #FF9640;   
+}
+h1 {
+    font-family: 'Ubuntu Mono', '';
+    font-size: 70pt;
+    color: #444;
+    
+}
+h3 {
+  font-family: 'Ubuntu Mono', '';
+  
+    font-size:30pt;
+    color: #444;
+} 
+
+#blockX {
+
+    display:inline;
+}
+
+#blockY {
+
+    display:inline;
+    margin-left: 300px;
+}
+
+
+h3, #vX, #vY {
+ display:inline;
+    
+}
+
+#vX, #vY {
+
+    font-family: 'Audiowide', curisve;
+    font-size: 32pt;
+    
+}
+
+
+#world {
+ 
+    cursor: url("http://www.i2clipart.com/cliparts/b/3/d/3/clipart-mouse-b3d3.png"), auto;
+    
+}
