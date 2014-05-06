@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One); 
+
+html {
+     height: 100%
+         
+ 
+ }
+      body { 
+          height: 100%; margin: 0; padding: 0 
+      }
+
+      #map-canvas { 
+      position:relative;
+          height: 100% 
+            
+      }
+
+
+#stats, h1, h3{
+ 
+    display:inline-block;
+}
+ 
+h1 {
+    margin-left: 45px;
+ font-family: 'Fjalla One', sans-serif;   
+}
+h3 {
+margin-left: 200px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#long, #lat {
+    
+    display:inline;
+  
+}

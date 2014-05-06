@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+html {
+ font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: #FFDC73  ;    
+    
+color: #A67C00  ;
+}
+
+h1 {
+ font-size: 55pt;   
+}
+
+h4{
+ color: #666;   
+}
+form {
+ text-align: left;  
+    line-height: 30px;
+
+}
+
+
+canvas {
+ 
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    
+}
+
+#selections {
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;   
+    color: #A67C00  ;
+}
+#chartIt {
+     font-family: 'Nunito', sans-serif;
+    font-size: 12pt;   
+    color: #A67C00  ;
+}
+
+#ins {
+ 
+    float:left;
+}

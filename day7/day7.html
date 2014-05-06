@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="day7.css">
+        <script src="day7.js"></script>
+        <script src="Chart.min.js"></script>
+    
+        <style>
+        a:link {color:#5c5c5c;}      /* unvisited link */
+        a:visited {color:#5c5c5c;}  /* visited link */
+        a:hover {color:#000000;}  /* mouse over link */
+        a:active {color:#FF0000;}
+        a:link {text-decoration:none;}
+        a:visited {text-decoration:none;}
+        a:hover {text-decoration:none;}
+        a:active {text-decoration:none;}
+        </style>
+         
+    </head>
+    
+    <body>
+        <h1>Spendings Visualizer</h1>
+        
+        <center><p>Input how much you spend a month and have it charted to a chart of your choice! Press 'reset' to start over.</p></center>
+        <br>
+        <div id = "ins">
+        <form>
+        January: <input type = "number" id = "january"><br>
+        February: <input type = "number" id = "february"><br>
+        March: <input type = "number" id = "march"><br>
+        April: <input type = "number" id = "april"><br>
+        May: <input type = "number" id = "may"><br>
+        June: <input type = "number" id = "june"><br>
+        July: <input type = "number" id = "july"><br>
+        August: <input type = "number" id ="august"><br>
+        September: <input type ="number" id = "september"><br>
+        October: <input type = "number" id ="october"><br>
+        November: <input type = "number" id ="november"><br>
+        December: <input type = "number" id ="december">
+        </form>
+        <br>
+        <select id = "selections">       
+            <option value="line">Line Chart</option>
+            <option value="bar">Bar Chart</option>
+            <option value="radar">Radar Chart</option>
+        </select>
+        
+        
+        
+        <button id = "chartIt" onclick="createChart();">Chart It</button>
+        </div>
+        <canvas id="myChart" width="700" height="400"></canvas>
+
+        <br>
+        <br>
+        <center><font size = "3" face = "monospace"><intput type="button" onclick="document.location.reload(true)"><a><h4>reset</h4></a></intput></font></center>
+        
+        <center><h4><font face = "monospace"><a href = "http://scotthso.com/hundred_days.html">back</a></font></h4></center>
+    </body>
+</html>
