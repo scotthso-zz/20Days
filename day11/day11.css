@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+html {
+    font-family: 'Oswald', 'sans-serif';
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+    color: #333333;
+}
+
+h1 {
+ 
+    font-size: 45pt;
+
+}
+
+#title1, #title2, #title3{
+
+    font-family: helvetica;
+}
+
