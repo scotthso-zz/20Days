@@ -1,8 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+
+html {
+
+    font-family: 'Special Elite', cursive;
+    
+}
+
 h1 {
- font-size:23pt;   
+
+ font-size:35pt;
+margin-top: 20pt;
 }
 
 #scare, h1, h3 {
     
  display:inline;   
+}
+
+#scare {
+ 
+    min-height: 100%;
+    min-width:1024px;
+    
+    width:100%;
+    height:auto;
+    position:fixed;
+    top:0;
+    left:0;
+    
 }
