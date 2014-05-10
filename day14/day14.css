@@ -1,0 +1,36 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+html {
+ font-family: 'Open Sans Condensed', sans-serif;
+    
+    
+}
+
+h1 {
+ 
+    font-size: 80pt;
+    
+    
+}
+
+
+#clock, #clock2, #clock3, #clock4 {
+ 
+    font-size: 100pt;
+ 
+    text-align: center;
+    margin-top: 1%;
+
+    
+}
+
+
+h3 {
+ 
+    
+    font-size: 23pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
