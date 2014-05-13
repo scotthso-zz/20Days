@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:900);
+
+
+html, body, div, span, applet,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	height:100%
+}
+
+h1 {
+    font-size:35pt;
+    font-family: 'Open Sans', sans-serif;
+    color:white;   
+}
+
+h3 {   
+    font-size:12pt;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+
+
+
+#abouttext{
+max-width: 600px;
+margin-left: 430pt;
+text-align: right;
+height: auto;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 80px;
+
+}
+
+#opening{
+padding: 0px 0 100px;
+background-color: #fdfdfd;
+display: block;
+position: relative;
+color:#111111;
+height:auto;
+}
+
+#openingtext{
+text-align: left;
+width: 640px;
+margin: 0 auto;
+
+}
+
+#openingtext p{
+font-size: 20px;
+line-height: 1.5em;  
+font-family: 'Playfair Display', serif;
+    margin-bottom: 15pt;
+}  
+
+#content{
+text-align: left;
+width: 700px;
+margin: 0 auto;
+margin-top: 120px;
+margin-bottom: 80px;
+}
+
+
+
+
+
+
