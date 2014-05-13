@@ -1,62 +1,111 @@
-html {
-    font-family: monospace; 
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@font-face {
+	font-family: GOTHAM-BOLD;
+	src: url('Gotham-Bold.otf');
 }
 
-body {
-color: #555;
+html, body, div, span, applet,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	height:100%
 }
 
-img.resize {
-    width:140px;
-    height:auto;
-    margin-top: 2cm;
-    margin-left: 30cm;
-    margin-right: auto;
-    margin-bottom: 1cm;
+#opening{
+padding: 0px 0px;
+background-color: #fdfdfd;
+display: block;
+position: relative;
+color:#111111;
+height:auto;
+font-family: gotham-bold, san-serif;    
 }
 
-a:link {text-decoration:none;} 
-
-xmp {
-    text-align: left;
-    margin-left: 30%
-       
+#head { 
+    font-size: 130pt;
+    font-family: 'Shadows Into Light', cursive;
+    color:white;
 }
 
-h1 {
-    margin-top:1cm;
-    text-align: center;
-    font-size: 30px;
-    line-height: 1px;
+#sig {
+position: absolute;
+right: 1%;
+bottom: 6%;
+ 
+}
+#collections{
+display:block;
+
 }
 
-h3 {
-    
-    font-weight:bolder;
-    text-align: center; 
+#collections a:hover{
+text-decoration:underline;
 }
 
-h4 {
-    text-align: center;
-    font-weight: lighter;
-    margin-top:25px;
-    line-height: 1px;
-  
+#collections a{
+text-decoration:none;
 }
 
-p {   
-  
-    
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: justify; text-justify: inter-cluster;
-    line-height: 15px;
-    font-weight: lighter;
-    font-family: helvetica;
-    font-size: 10px;
-}
+.collection-item{
+display: inline-block;
+height:10%;
+width: 100%;
 
 
-#linked {
+background-color: #333332;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 text-align: center;
+position: relative;
+overflow: hidden;
+vertical-align:bottom;
+}
+
+.block-fill{
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 0;
+min-width: 100%;
+background-size: cover;
+background-position:center;
+}
+
+
+.collection-item-title{
+color: #fff;
+margin-top: 60px;
+font-size: 30pt;
+text-transform: uppercase;
+line-height: 1.5em;
+height: 110px;
+}
+
+#openingtext p{
+font-size: 26px;
+
+color: #333332;
+line-height: 1.4em;
 }
