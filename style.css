@@ -32,14 +32,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 h1 {
- 
     font-size:25pt;
     font-family: 'Open Sans', sans-serif;
-
 }
 
-h3 {
-    
+h3 { 
  font-size:15pt;
     font-family: 'Open Sans', sans-serif;
 }

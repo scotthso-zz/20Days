@@ -1,20 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+a:link {color:#5c5c5c;}      /* unvisited link */
+a:visited {color:#5c5c5c;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#FF0000;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
 
 html, body, div, span, applet,
- h2, h3, h4, h5, h6, p, blockquote, pre,
+p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+del, dfn, em, font, small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	border: 0;
 	
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
-	margin: 0;
+    margin:0;
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
@@ -33,20 +41,27 @@ h3 {
     color:white;
 }
 
+h4 {
+ 
+    font-size:13pt;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 #abouttext{
 max-width: 600px;
-margin-left: 430pt;
+
 text-align: right;
 height: auto;
-position: absolute;
-left: 0;
-right: 0;
+position:absolute;
+
+right: 5%;
 bottom: 80px;
 
 }
 
 #opening{
-padding: 0px 0 100px;
+padding: 0px 0 10px;
 background-color: #fdfdfd;
 display: block;
 position: relative;
@@ -63,9 +78,9 @@ margin: 0 auto;
 
 #openingtext p{
 font-size: 20px;
-line-height: 1.5em;  
+line-height: 1.8em;  
 font-family: 'Playfair Display', serif;
-    margin-bottom: 15pt;
+    margin-bottom: 17pt;
 }  
 
 #content{
