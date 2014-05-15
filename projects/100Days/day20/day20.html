@@ -3,7 +3,7 @@
     <head>
         
     <meta charset="utf-8">
-     <link rel="stylesheet" href="day17.css">
+     <link rel="stylesheet" href="day20.css">
         <title>Your Life in Time</title>
        <style>
 a:link {color:#5c5c5c;}      /* unvisited link */
@@ -15,7 +15,7 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:none;}
 a:active {text-decoration:none;}
        </style>    
-        <script src = "day17.js"></script>
+        <script src = "day20.js"></script>
     </head>
     <body>
         
@@ -23,13 +23,19 @@ a:active {text-decoration:none;}
         <br>
         <h3>Birthday</h3>
         <h4>Year</h4>
-        <input type="number">
+        <input id = "year" type="number">
         <h4>Month</h4>
-        <input type="number">
+        <input id = "month" type="number">
         <h4>Date</h4>
-    <input type="number">
+    <input id = "day" type="number">
+        
+        <br>
+        
+        <button id = "calculate" onclick = "calculate();">Calculate</button>
         
         <h4>Seconds</h4>
+        <div id = "seconds-Display"></div>
+        
         <h4>Minutes</h4>
         <h4>Hours</h4>
         <h4>Days</h4>
