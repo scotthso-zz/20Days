@@ -42,10 +42,8 @@ h3 {
 }
 
 h4 {
- 
     font-size:13pt;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;   
 }
 
 #abouttext{
@@ -61,7 +59,7 @@ bottom: 80px;
 }
 
 #opening{
-padding: 0px 0 10px;
+padding: 0px 0px 0px;
 background-color: #fdfdfd;
 display: block;
 position: relative;
@@ -80,7 +78,7 @@ margin: 0 auto;
 font-size: 20px;
 line-height: 1.8em;  
 font-family: 'Playfair Display', serif;
-    margin-bottom: 17pt;
+margin-bottom: 17pt;
 }  
 
 #content{
@@ -88,5 +86,5 @@ text-align: left;
 width: 700px;
 margin: 0 auto;
 margin-top: 120px;
-margin-bottom: 80px;
+margin-bottom: 25px;
 }
