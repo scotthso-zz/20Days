@@ -4,22 +4,20 @@
 <head>
     <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="day15.css">
-    <script src="day15.js"></script>
+ <link rel="stylesheet" href="day21.css">
+    <script src="day21.js"></script>
 
-<script src="/socket.io/socket.io.js"></script>
-<script>
-  var socket = io.connect('http://localhost');
-  socket.on('news', function (data) {
-    console.log(data);
-    socket.emit('my other event', { my: 'data' });
-  });
-</script>
-    
+    <title>Thoughts</title>
     </head>
     
     <body>
     
+        <h1>Thoughts</h1>
+        <h3>Come back tomorrow and your thoughts will still be here!</h3>
+        <input id = "input" type="text">
+        
+        <h4 id = "thoughts"></h4>
+        
     </body>
     
     
