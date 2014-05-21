@@ -21,7 +21,7 @@ a:active {text-decoration:none;}
 
 html, body, div, span, applet,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+a, big, cite, code,
 del, dfn, em, font, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
@@ -55,7 +55,6 @@ h4 {
     font-family: 'Roboto', sans-serif;
     
 }
-
 
 #about_me{
     
@@ -188,8 +187,8 @@ font-family: helvetica;
 #social a:hover  {
  text-decoration: underline;   
 }
+
 #social {
- text-align: center;   
-    
+ text-align: center;       
 }
 
