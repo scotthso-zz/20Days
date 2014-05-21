@@ -11,6 +11,14 @@
 	src: url('Gotham-Bold.otf');
 }
 
+a:link {color:#5c5c5c;}      /* unvisited link */
+a:visited {color:#5c5c5c;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
 html, body, div, span, applet,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,6 +69,15 @@ bottom: 6%;
  
 }
 
+#scroll {    
+font-size: 18pt;
+position: absolute;
+color:white;
+font-family: 'Open Sans', sans-serif;
+top: 94%;
+left: 48%;
+}
+
 #collections{
     
 display:block;
@@ -70,7 +87,8 @@ margin-left: 7%;
 }
 
 #collections a:hover{
-font-size: 13pt;
+
+    opacity: .5;
 }
 
 #collections a{
@@ -112,6 +130,7 @@ border-radius: 8px;
 background-size: cover;
 background-position:center;
 }
+
 
 .collection-item:nth-child(3n+1) {
 margin-left: 0;
