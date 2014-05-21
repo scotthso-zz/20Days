@@ -48,14 +48,6 @@ h4 {
     
 }
 
-#opening{
-padding: 10% 0 100px;
-background-color: #fdfdfd;
-display: block;
-position: relative;
-color:#111111;
-height:auto;
-}
 
 #about_me{
     
@@ -72,8 +64,8 @@ bottom: 6%;
 #collections{
     
 display:block;
-margin-bottom: 34px;
-margin-top: 74px;
+margin-bottom: 105px;
+margin-top: 120px;
 margin-left: 7%;
 }
 
@@ -139,6 +131,16 @@ height: 150px;
 position: relative;
 z-index:1;
 height:100px;
+}
+
+
+#opening{
+padding: 10% 0 270px;
+background-color: #fdfdfd;
+display: block;
+position: relative;
+color:#111111;
+height:auto;
 }
 
 #openingtext{
