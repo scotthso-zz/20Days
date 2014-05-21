@@ -1,16 +1,22 @@
-var app = require('express')()
-  , server = require('http').createServer(app)
-  , io = require('socket.io').listen(server);
+function save() {
 
-server.listen(80);
+    document.getElementById("thoughts").innerHTML = document.getElementById("input").value();
+    
+if (typeof(Storage) != "undefined")
+  {
+  // Store
+  localStorage.setItem("storage");
+      localStorage.storage = document.getElementById("thoughts").value();
+  // Retrieve
+   document.getElementById("thoughts").innerHTML=localStorage.getItem("storage");
+  
+  }
 
-app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/index.html');
-});
-
-io.sockets.on('connection', function (socket) {
-  socket.emit('news', { hello: 'world' });
-  socket.on('my other event', function (data) {
-    console.log(data);
-  });
-});
+else
+  
+{
+  document.getElementById("thoughts").innerHTML="Sorry, your browser does not support Web Storage...";
+  
+}
+    
+}
