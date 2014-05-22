@@ -8,7 +8,7 @@
 
 
 html {
-    font-family: 'Open Sans', sans-serif;
+    
     font-family: 'Roboto', sans-serif;  
 }
 
@@ -49,8 +49,9 @@ h3 {
 h4 {
     text-align: center;
     font-weight: lighter;
+    font-size:8pt;
     margin-top:25px;
-    
+    font-family: 'Open Sans', sans-serif;
     line-height: 1px;
   
 }
