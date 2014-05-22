@@ -8,18 +8,11 @@
     <meta charset="utf-8">
       <meta name="viewport" content="width=680">
       <link rel="stylesheet" href="style.css">
-    <title>Scott So</title>
     
-      <style>
-a:link {color:#5c5c5c;}      /* unvisited link */
-a:visited {color:#5c5c5c;}  /* visited link */
-a:hover {color:#000000;}  /* mouse over link */
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+     
+      <script src = "home.js"></script>
 
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-a:hover {text-decoration:none;}
-a:active {text-decoration:none;}
-       </style>
           <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +23,11 @@ a:active {text-decoration:none;}
   ga('send', 'pageview');
 
 </script>
- 
+      
+      
+      <title>Scott So</title>
+    
+      
     </head>
     
     <body>
@@ -38,7 +35,8 @@ a:active {text-decoration:none;}
 <div style="position:relative; z-index: 1">
  
     <div id="head">
-	<img id = "sig" src="img/signature.png">
+	<img id = "sig" style = "display:none" src="img/signature.png">
+        <div id = "scroll" style = "display:none">scroll down</div>
     </div>
             
 </div>
@@ -46,7 +44,7 @@ a:active {text-decoration:none;}
         <img src="img/heade.jpg" style="position: absolute; z-index: 0; bottom: 0px; right: 0px; min-height: 100%; min-width: 100%; opacity: .9;">
    
         
-        <div id="opening">
+        <div id="opening"><a name = "home"></a>
         <div id="openingtext">
 			 <div id="about_me">
 			
@@ -86,6 +84,21 @@ a:active {text-decoration:none;}
       
         </div>
         
+            <div id = "about_me">
+                <p>Also, I am working at </p>
+        
+                <div id = "collections">
+                 <a href="http://www.ot.utoronto.ca/iatsl/" class="collection-item" style="background-color:#000">
+				<div class="align-block">
+					<div class="collection-item-title">IATSL</div>	
+                    <div class ="kind">Research Intern</div>
+				</div>
+				<div class="block-fill" style="background-image:url(http://www.hubbardhall.com/Collateral/Images/English-US/printed-circuit-board.jpg); opacity: .4;">
+				</div>
+			</a>     
+                
+                </div>
+                
        <div id = "social">
            <p><a href = "http://ca.linkedin.com/in/scotthso">LinkedIn</a> &middot; <a href = https://github.com/scotthso>GitHub</a> &middot; <a href = "https://twitter.com/s_scoot">Twitter</a> &middot; <a href = "Resume.pdf">Resume</a></p>
            

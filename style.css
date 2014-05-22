@@ -11,9 +11,17 @@
 	src: url('Gotham-Bold.otf');
 }
 
+a:link {color:#5c5c5c;}      /* unvisited link */
+a:visited {color:#5c5c5c;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
 html, body, div, span, applet,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+a, big, cite, code,
 del, dfn, em, font, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
@@ -48,15 +56,6 @@ h4 {
     
 }
 
-#opening{
-padding: 10% 0 100px;
-background-color: #fdfdfd;
-display: block;
-position: relative;
-color:#111111;
-height:auto;
-}
-
 #about_me{
     
     margin-bottom: 50pt;
@@ -69,16 +68,26 @@ bottom: 6%;
  
 }
 
+#scroll {    
+font-size: 18pt;
+position: absolute;
+color:white;
+font-family: 'Open Sans', sans-serif;
+top: 94%;
+left: 48%;
+}
+
 #collections{
     
 display:block;
-margin-bottom: 34px;
-margin-top: 74px;
+margin-bottom: 55px;
+margin-top: 70px;
 margin-left: 7%;
 }
 
 #collections a:hover{
-font-size: 13pt;
+
+    opacity: .5;
 }
 
 #collections a{
@@ -116,10 +125,11 @@ top: 0px;
 left: 0px;
 z-index: 0;
 min-width: 100%;
-    border-radius: 8px;
+border-radius: 8px;
 background-size: cover;
 background-position:center;
 }
+
 
 .collection-item:nth-child(3n+1) {
 margin-left: 0;
@@ -131,14 +141,36 @@ margin-top: 45px;
 font-family: 'Open Sans', sans-serif;
 text-transform: uppercase;
 line-height: 1.5em;
-height: 150px;
+height: 120px;
     
+}
+
+.kind {
+    
+ font-family: 'Open Sans', sans-serif; 
+color: #fff;
+text-transform: uppercase;
+font-size: 12px;
+padding: 0;
+margin-top: 0;
+line-height: 0em;
+height: 10px;
 }
 
 .align-block{
 position: relative;
 z-index:1;
 height:100px;
+}
+
+
+#opening{
+padding: 10% 0 30px;
+background-color: #fdfdfd;
+display: block;
+position: relative;
+color:#111111;
+height:auto;
 }
 
 #openingtext{
@@ -155,8 +187,8 @@ font-family: helvetica;
 #social a:hover  {
  text-decoration: underline;   
 }
+
 #social {
- text-align: center;   
-    
+ text-align: center;       
 }
 
